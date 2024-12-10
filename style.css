@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    font-family: "Inter";
+    justify-content: center;
+    background-color: #f4f5fb;
+}
+
+footer {
+    background-color: #c93847;
+    display: none;
+    width: 627px;
+    border-radius: 12px;
+    align-items: center;
+    margin-top: 36px;
+}
+
+p {
+    margin-right: 370px;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+label {
+    display: none;
+}
+
+span {
+    width: 481px;
+    font-size: 1rem;
+    margin-right: 20px;
+}
+
+#excluir {
+    cursor: pointer;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+#alerticon {
+    background-color: #ffffff;
+    border-radius: 100%;
+    border: none;
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+#list {
+    margin-top: 40px;
+    display: none;
+}
+
+#button {
+    background-color: #ca3884;
+    width: 160px;
+    height: 44px;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+
+}
+
+#button:hover {
+    background-color: #a52c6b;
+}
+
+#input {
+    width: 433px;
+    height: 44px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #d1d5db;
+    padding-left: 18px;
+    font-size: 1rem;
+}
+
+#input:hover {
+    border-color: #b9c2d0;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    width: 577px;
+    height: 49px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.checkbox {
+    width: 16px;
+    margin-left: 12px;
+    margin-right: 8.5px;
+    border-radius: 6px;
+}
+
+
+#adicionar {
+    display: flex;
+    gap: 16px;
+}
+
+#alerticon {
+    margin-left: 10px;
+}
